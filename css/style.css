@@ -1,0 +1,410 @@
+/*=============================
+    common rules
+ ==============================*/
+
+ body{ 
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 20px;
+ }
+
+ /*=============================
+    common rules
+ ==============================*/
+
+ 
+
+ nav{
+    background: #4267b2;
+    padding: auto;
+    margin-bottom: 620px;
+}
+.atigh {
+    margin-bottom: 478px;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+    color: #FFF;
+}
+.navbar-toggler span {
+    background:red;
+    border-color: rgb(255,102,203);
+   
+}
+.nav-item {
+    color:#fff;
+    font-size: 18px;
+    margin-top: -3px;
+    margin-right: -1px;
+    margin-right: 30px;
+}
+
+.nav-item .nav-link {
+    color:#fff;
+    
+}
+
+.dropdown-menu {
+    background:#012a5e;
+    color:#FFF;
+}
+.dropdown-menu a {
+    background:#012a5e;
+    color:#FFF;
+}
+
+
+
+
+.dropdown .btn:hover,
+.dropdown-menu:hover,
+.dropdown-item:hover,
+
+
+.nav-item :hover {
+    color:#c1c9d3;
+    background:#012a5e;
+    
+   
+}
+
+
+/*=============================
+            slide 
+ ==============================*/
+.slide .carousel-item .rig-40 {
+
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/rig-40.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+
+.slide .carousel-item .rig-45 {
+
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/rig-45.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+
+.slide .carousel-item .rig-62 {
+    
+    background:#c6c6c6;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/rig-62.jpg') no-repeat;
+    height: 600px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+/*=============================
+            markrting
+ ==============================*/
+
+.marketing{
+  padding-top: 23px;
+  background:#c6c6c6;
+  background: #FFF;
+}
+ .header{
+    font-size: 30px;
+    
+   
+}
+.marketing .erea {
+    font-size: 25px;
+    
+   
+}
+.marketing p{
+    font-size: 25px;
+}
+
+/*=============================
+          machine  #4166b2
+ ==============================*/
+
+ .machine1{
+    padding-top: 23px;
+    background:#161616;
+    background:#4166b2;
+    color:#fff;
+  }
+
+  /*=============================
+          rig62  #4166b2
+ ==============================*/
+
+ .rig62{
+    padding-top: 23px;
+    background:#161616;
+    background:#4166b2;
+    color:#fff;
+  }
+
+  /*=============================
+          rig62  #4166b2
+ ==============================*/
+
+ .rig40{
+    padding-top: 23px;
+    background:#161616;
+    background:#c6c6c6;
+
+  }
+ 
+ 
+  
+ /*=============================
+          machine  #4166b2
+ ==============================*/
+
+ .machine2{
+    padding-top: 23px;
+    background:#4166b2;
+    background:#c6c6c6;
+    background:#161616;
+    color:#fff;
+  } 
+
+
+
+/*============================
+  bottom footer
+============================*/
+.up-footer {
+    font-family: ubuntu;
+    color: #f9f9f9;
+    background: #3d3d3d;
+    padding-bottom: 11px;
+    padding-top: 19px;
+}
+
+
+.up-footer .nos-solutions a {
+    text-decoration: none;
+    color :#f9f9f9;
+    font-size:16px;
+    line-height: 30px;
+    
+}
+.up-footer .nos-solutions a:hover {
+    color:#e2e2eb;  
+}
+
+.up-footer .Société a {
+    text-decoration: none;
+    color :#f9f9f9;
+    font-size:20px;
+    margin-bottom: 12px;
+  
+}
+.contact .contact-icon  {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact .contact-icon  i {
+    font-size: 30px;
+    color :red;
+}
+
+
+/*============================
+  bottom footer
+============================*/
+.bottom-foter{
+    background: #363636;
+    color:#f9f9f9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bottom-foter .sociale a {
+    float: right;
+    margin-right: 10px;
+}
+
+.bottom-foter .sociale .icons {
+    color:#f9f9f9; 
+
+    
+}
+.bottom-foter .sociale .icons:hover {
+    color:#e2e2eb;
+    
+    
+} 
+
+/*============================
+       why
+============================*/
+
+
+#why-besi  {
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/whybesi.png') no-repeat;
+    /*background:#edf1f5;*/
+    min-height: 335px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+  
+   
+
+}
+#why-besi h2 {
+    padding-bottom: 45px;
+    color:#141414;
+    color:#fff;
+    font-weight: bolder;
+
+
+}
+
+
+/* ===================================================
+                        clients
+===================================================== */
+#clients{
+    background-color: #f4f4f3;
+}
+#clients h2{
+    font-size:38px;
+
+}
+#clients h2 span{
+    font-size: 28px;
+
+}
+
+#clients .thumbnail img{
+    width: 200px;
+    height: 128px;
+    margin-right: 100px;
+    border-radius: 3px;
+    padding: 20px;
+}
+#clients p{
+    font-size: 28px;
+}
+
+
+/*=============================
+          services page
+ ==============================*/
+
+.slide-services {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/slide-services.jpg') no-repeat;
+    height: 375px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+
+
+ .services-description{
+     padding-top: 30px;
+     padding-bottom: 50px;
+    background: #f3f4f6;
+ }
+ .mix-services{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+ }
+
+
+ /*=============================
+          about  page
+ ==============================*/
+
+.slide-about {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/about.jpg') no-repeat;
+    height: 375px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+
+
+ .about-description{
+     padding-top: 30px;
+     padding-bottom: 50px;
+    background: #f3f4f6;
+ }
+ .mix-services{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+ }
+
+
+ /*=============================
+          about  page
+ ==============================*/
+
+ .slide-contact {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/pexels-photo.jpg') no-repeat;
+    height: 475px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+
+
+ .nktt-contact{
+     padding-top: 30px;
+     padding-bottom: 50px;
+    background: #f3f4f6;
+ }
+ .zrtt-contact{
+    padding-top: 30px;
+    padding-bottom: 50px;
+   background: #f3f4f6;
+}
+ .mix-contact{
+    padding-top: 30px;
+    padding-bottom: 50px;
+
+ }
+ 
+ 

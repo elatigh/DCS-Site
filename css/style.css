@@ -3,8 +3,10 @@
  ==============================*/
 
  body{ 
-    font-family: 'Ubuntu Mono', monospace;
+    
     font-size: 20px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+  
  }
 
  /*=============================
@@ -43,13 +45,17 @@
     color:#fff;
     
 }
+ .dropdown button{
+    background:#4267b2;
+    color:#fff;
+ }
 
 .dropdown-menu {
-    background:#012a5e;
+    background:#4267b2;
     color:#FFF;
 }
 .dropdown-menu a {
-    background:#012a5e;
+    background:#4267b2;
     color:#FFF;
 }
 
@@ -63,7 +69,8 @@
 
 .nav-item :hover {
     color:#c1c9d3;
-    background:#012a5e;
+    color: #fff;
+    background:#4267b2;
     
    
 }
@@ -76,7 +83,7 @@
 
     color: #012a5e;
     color:#fff;
-    background: url('../images/rig-40.jpg') no-repeat;
+    background: url('../images/Rig 43.JPG') no-repeat;
     height: 600px;
     background-size: cover;
     padding-left: 0 !important;
@@ -89,7 +96,7 @@
 
     color: #012a5e;
     color:#fff;
-    background: url('../images/rig-45.jpg') no-repeat;
+    background: url('../images/RIG 45.JPG') no-repeat;
     height: 600px;
     background-size: cover;
     padding-left: 0 !important;
@@ -103,13 +110,81 @@
     background:#c6c6c6;
     color: #012a5e;
     color:#fff;
-    background: url('../images/rig-62.jpg') no-repeat;
+    background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
     height: 600px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
     padding-top: 35px;
     opacity: 0.90;
+}
+
+/*===================================
+    solutions section
+ ====================================*/
+ .solutions{
+    background:#FFF;
+    padding-top: 10px;
+    background: #e3e7ea;
+    
+} 
+.product-header{
+    /*font-size: 30px;
+    font-weight: bolder; */
+}
+.solutions img{
+    width: 435px;
+    display: block;
+   
+
+    
+   
+ }
+.solutions .item {
+   padding-right: 20px;
+   padding-left: 10px; 
+   margin-top: 12px;
+   margin-bottom: 10px;
+   
+   
+  
+}
+.solutions .item .border {
+   height: 600px;
+   
+   background: #fff;
+   
+}
+
+
+.solutions .item .title {
+   
+   text-align: center;
+   margin-top: 10px;
+}
+.solutions .item .text {
+   color:#141414;
+   font-family: ubuntu;
+   font-size: 20px;
+   padding-left: 3px;
+   padding-right: 3px;
+   margin-left: 5px;
+
+}
+
+.solutions .item .link button {
+  
+  border-radius: 10px;
+  margin-top: 20px;
+  background: #4166b2;
+  color: #FFF;
+  font-family: ubuntu;
+  font-size: 20px
+}
+.solutions .item .link {
+   margin-bottom: -36px;
+   position:relative;
+   margin-bottom: 1%;
 }
 /*=============================
             markrting
@@ -187,7 +262,7 @@
   bottom footer
 ============================*/
 .up-footer {
-    font-family: ubuntu;
+   
     color: #f9f9f9;
     background: #3d3d3d;
     padding-bottom: 11px;
@@ -220,7 +295,7 @@
 
 .contact .contact-icon  i {
     font-size: 30px;
-    color :red;
+   
 }
 
 
@@ -406,5 +481,112 @@
     padding-bottom: 50px;
 
  }
+
+
+
+ /*=============================
+          rig  page
+ ==============================*/
+
+
+ .slide-rig40-41 {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/about.jpg') no-repeat;
+    height: 375px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+
+.slide-rig42{
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/RIG 42.JPG') no-repeat;
+    height: 1075px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+.slide-rig43 {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
+    height: 1075px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+.slide-rig44 {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
+    height: 375px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+.slide-rig45 {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/RIG 45.JPG') no-repeat;
+    height: 775px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+.slide-rig60 {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/Rig 61 et 62.JPG') no-repeat;
+    height: 375px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
+.slide-rig61 {
+    
+    background: red;
+    margin-top: 70px;
+    color: #012a5e;
+    color:#fff;
+    background: url('../images/Rig 61 et 62.JPG') no-repeat;
+    height: 975px;
+    background-size: cover;
+    padding-left: 0 !important;
+    padding-right: 0px !important;
+    padding-top: 35px;
+    opacity: 0.90;
+}
  
  

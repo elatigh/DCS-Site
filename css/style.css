@@ -1,7 +1,11 @@
 /*=============================
     common rules
  ==============================*/
+ *{
+     position: relative;
+     margin: 0;
 
+ }
  body{ 
     
     font-size: 20px;
@@ -29,7 +33,7 @@
     color: #FFF;
 }
 .navbar-toggler span {
-    background:red;
+    
     border-color: rgb(255,102,203);
    
 }
@@ -83,7 +87,7 @@
 
     color: #012a5e;
     color:#fff;
-    background: url('../images/Rig 43.JPG') no-repeat;
+    /*background: url('../images/Rig 43.JPG') no-repeat; */
     height: 600px;
     background-size: cover;
     padding-left: 0 !important;
@@ -96,7 +100,7 @@
 
     color: #012a5e;
     color:#fff;
-    background: url('../images/RIG 45.JPG') no-repeat;
+     /* background: url('../images/RIG 45.JPG') no-repeat; */
     height: 600px;
     background-size: cover;
     padding-left: 0 !important;
@@ -110,7 +114,7 @@
     background:#c6c6c6;
     color: #012a5e;
     color:#fff;
-    background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
+    /*background: url('../images/RIG 43 et 44 bis.JPG') no-repeat; */
     height: 600px;
     background-size: cover;
     padding-left: 0 !important;
@@ -199,82 +203,17 @@
     font-weight: bold;
  }
 
- .item .border .link {
-    height: 5vw;
-    width: 100%;
+ 
+.link{
+    display:block;
 }
-/*=============================
-            markrting
- ==============================*/
 
-.marketing{
-  padding-top: 23px;
-  background:#c6c6c6;
-  background: #FFF;
-}
- .header{
-    font-size: 30px;
-    
-   
-}
-.marketing .erea {
-    font-size: 25px;
-    
-   
-}
-.marketing p{
-    font-size: 25px;
-}
 
 /*=============================
           machine  #4166b2
  ==============================*/
 
- .machine1{
-    padding-top: 23px;
-    background:#161616;
-    background:#4166b2;
-    color:#fff;
-  }
-
-  /*=============================
-          rig62  #4166b2
- ==============================*/
-
- .rig62{
-    padding-top: 23px;
-    background:#161616;
-    background:#4166b2;
-    color:#fff;
-  }
-
-  /*=============================
-          rig62  #4166b2
- ==============================*/
-
- .rig40{
-    padding-top: 23px;
-    background:#161616;
-    background:#c6c6c6;
-
-  }
  
- 
-  
- /*=============================
-          machine  #4166b2
- ==============================*/
-
- .machine2{
-    padding-top: 23px;
-    background:#4166b2;
-    background:#c6c6c6;
-    background:#161616;
-    color:#fff;
-  } 
-
-
-
 /*============================
   bottom footer
 ============================*/
@@ -506,14 +445,14 @@
  ==============================*/
 
 
- .slide-rig40-41 {
+ .slide-rig40-41 img {
     
-    background: red;
-    margin-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/about.jpg') no-repeat;
-    height: 375px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
@@ -521,85 +460,84 @@
     opacity: 0.90;
 }
 
-.slide-rig42{
+.slide-rig42 img{
     
-    background: red;
-    margin-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/RIG 42.JPG') no-repeat;
-    height: 575px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
     padding-top: 35px;
     opacity: 0.90;
 }
-.slide-rig43 {
+.slide-rig43  img{
     
-    background: red;
-    margin-top: -70px;
-    padding-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
-    height: 1000px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
     padding-top: 35px;
     opacity: 0.90;
 }
-.slide-rig44 {
+.slide-rig44 img {
     
-    background: red;
-    margin-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
-    height: 375px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
     padding-top: 35px;
     opacity: 0.90;
 }
-.slide-rig45 {
+.slide-rig45 img{
     
-    background: red;
-    margin-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/RIG 45.JPG') no-repeat;
-    height: 775px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
     padding-top: 35px;
     opacity: 0.90;
 }
-.slide-rig60 {
+.slide-rig60 img{
     
-    background: red;
-    margin-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/Rig 61 et 62.JPG') no-repeat;
-    height: 375px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
     padding-top: 35px;
     opacity: 0.90;
 }
-.slide-rig61 {
+.slide-rig61 img {
     
-    background: red;
-    margin-top: 70px;
+    width:100%;
+    margin-top:30px;
     color: #012a5e;
     color:#fff;
-    background: url('../images/Rig 61 et 62.JPG') no-repeat;
-    height: 975px;
+    /*background: url('../images/about.jpg') no-repeat; */
+    height: 495px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;

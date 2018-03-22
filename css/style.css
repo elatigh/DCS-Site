@@ -133,7 +133,8 @@
     font-weight: bolder; */
 }
 .solutions img{
-    width: 435px;
+    width: 100%;
+    height: 300px;
     display: block;
    
 
@@ -150,7 +151,7 @@
   
 }
 .solutions .item .border {
-   height: 600px;
+   height: 700px;
    
    background: #fff;
    
@@ -178,13 +179,29 @@
   margin-top: 20px;
   background: #4166b2;
   color: #FFF;
-  font-family: ubuntu;
-  font-size: 20px
+  font-size: 20px;
 }
 .solutions .item .link {
-   margin-bottom: -36px;
-   position:relative;
-   margin-bottom: 1%;
+   
+   
+
+}
+
+.item .border .link a{
+    border-bottom: 2px solid #56A677;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(86, 166, 119);
+    cursor: pointer;
+    font-size: 1.25vw;
+    color: #000;
+    font-family: ubuntu;
+    font-weight: bold;
+ }
+
+ .item .border .link {
+    height: 5vw;
+    width: 100%;
 }
 /*=============================
             markrting
@@ -511,7 +528,7 @@
     color: #012a5e;
     color:#fff;
     background: url('../images/RIG 42.JPG') no-repeat;
-    height: 1075px;
+    height: 575px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;
@@ -521,11 +538,12 @@
 .slide-rig43 {
     
     background: red;
-    margin-top: 70px;
+    margin-top: -70px;
+    padding-top: 70px;
     color: #012a5e;
     color:#fff;
     background: url('../images/RIG 43 et 44 bis.JPG') no-repeat;
-    height: 1075px;
+    height: 1000px;
     background-size: cover;
     padding-left: 0 !important;
     padding-right: 0px !important;

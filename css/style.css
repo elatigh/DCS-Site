@@ -40,6 +40,7 @@
 
 }
 *{
+    color:#525c65;
     -webkit-transition: all .2s;
        -moz-transition: all .2s;
          -o-transition: all .2s;
@@ -64,7 +65,7 @@ h2,h1,h3,h4,h5{
  nav{
     background: #4267b2;
     background: #fff;
-   
+
     box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
     padding: auto;
     margin-bottom: 620px;
@@ -72,11 +73,13 @@ h2,h1,h3,h4,h5{
     color:#666;
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-size: 30px;
-    color: #666;
+.navbar-toggler{
+    background:#fff
 }
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='#4166b2' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
 
 .dropdown button{
     color:#666;
@@ -89,17 +92,12 @@ h2,h1,h3,h4,h5{
     font-size: 20px;
     margin-right: 30px;
     
+    
+}
+.nav-item a{
+    color:#525c65;
 }
 
- .hhhh a {
-    
-    color:#666;
-    background:red;
-  
-  
-    
-
-}
  .dropdown button{
     background:#fff;
     color:#666;
@@ -119,10 +117,8 @@ h2,h1,h3,h4,h5{
 
 .dropdown .btn:hover,
 .dropdown-menu:hover,
-.dropdown-item:hover,
 
-
-.nav-item :hover{
+{
     color:#c1c9d3;
     color: #fff;
     background:#4267b2;
@@ -298,7 +294,7 @@ h2,h1,h3,h4,h5{
     padding-top: 19px;
 }
 .up-footer  h4 {
-    color:#4166b2;
+    color:#f9f9f9;
 }
 
 
